@@ -1,0 +1,342 @@
+@font-face {
+    font-family: "TT Hoves Normal";
+    font-weight: normal;
+    src: url(./fonts/TT_Hoves_normal.ttf);
+}
+@font-face {
+    font-family: "TT Hoves Light";
+    src: url(./fonts/TT_Hoves_light.ttf);
+}
+@font-face {
+    font-family: "TT Hoves Bold";
+    src: url(./fonts/TT_Hoves_bold.ttf);
+}
+#menu > .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#element > li {
+    display: inline-block;
+    margin-right:60px;
+    font-family: "TT Hoves Normal";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 20%;
+    text-transform: uppercase;
+}
+#element > li:last-child{
+    margin-right: 0;
+}
+.wrapper{
+    max-width:1200px ;
+    margin: 0 auto;
+    
+}
+.light_title{
+    width:300px;
+    font-family:"TT Hoves Light";
+    font-size: 64px;
+    line-height: 64px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+}
+.bold_title{
+    width:300px;
+    font-family:"TT Hoves Bold";
+    font-size: 64px;
+    line-height: 64px;
+    text-transform: uppercase;
+}
+.red > .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+#button{
+    appearance:none;
+    font-family: "TT Hoves Normal";
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    text-align: left;
+    background:#FFFFFF;
+    border: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 30px 50px;
+}
+#button_style{
+    position: relative;
+}
+#style_button_two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.number{
+    appearance: none;
+    background: white;
+    border: 1px solid #F2F2F2;;
+    padding:15px ;
+    font-size: 20px;
+}
+.number:hover{
+    background: #F9F9F9;
+}
+.number:last-child{
+    margin-left: 22px;
+}
+.numbers{
+   color:#E0E0E0 ; 
+   font-family: "TT Hoves Normal";
+   font-size: 24px;
+   line-height: 24px;
+   letter-spacing: 0em;
+   text-align: left;
+
+}
+#third{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    height: 465px;
+    background: #FBFBFB;
+    margin: 120px auto;
+}
+.settings{
+    max-width:1200px;
+    margin: 0 auto;
+}
+#img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr 1fr;
+    gap: 30px;
+    align-items: center;
+}
+#some_text > p{
+    font-family: "TT Hoves Normal";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 400px;
+    height: 400px;
+    top: 1168px;
+    left: 835px;
+}
+#some_text >h2{
+    font-family: "TT Hoves Normal";
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#BDBDBD;
+    
+}
+#button_two{
+    font-family: "TT Hoves Normal";
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    text-align: left;
+    background:#FBFBFB;
+    border: 0;
+    width: 93px;
+    padding-top: 24px;
+    left: 65px;
+    height: 24px;
+
+}
+#title{
+font-family: "TT Hoves Normal";
+font-size: 64px;
+line-height: 64px;
+letter-spacing: 0em;
+text-align: left;
+color: #BDBDBD;
+display:flex;
+}
+
+
+#four{
+    display: flex;
+}
+.one_a{
+font-family: "TT Hoves Normal";
+font-size: 150px;
+line-height: 200px;
+letter-spacing: 0em;
+text-align: left;
+color:gray ;
+}
+.one_t{
+font-family: "TT Hoves Normal";
+font-size: 22px;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.one_block{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.one_block > p{
+    margin: 0;
+}
+#img_third{
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-row-end:3 ;
+}
+#img_first{
+    order: 2;
+}
+#four_s{
+    display: flex;
+    justify-content: space-between;
+}
+#four_s > div{
+width:40%;
+}
+#images{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows:250px 250px ;
+    grid-gap: 10px;
+}
+#images > img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+position: relative;
+}
+#images > img:after:hover{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    background: rgba(0, 0, 0, 0.5);
+}
+#set_button_allp{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+#button_allp{
+background: #333333;
+width: 222px;
+height: 71px;
+color: #F2F2F2;
+font-family: "TT Hoves Normal";
+font-size: 12px;
+line-height: 12px;
+letter-spacing: 0.2em;
+margin-left: auto;
+text-transform: uppercase;
+}
+#imeges_style1{
+grid-column-start: 1;
+grid-column-end: 4;
+}
+#imeges_style2{
+grid-column-start: 4;
+grid-column-end:  7;
+}
+#imeges_style3{
+grid-column-start: 1;
+grid-column-end: 3;
+}
+#imeges_style4{
+grid-column-start: 3;
+grid-column-end: 5;
+}
+#imeges_style5{
+grid-column-start: 5;
+grid-column-end: 7;
+}
+.some_title{
+font-family: "TT Hoves Light";
+font-size: 64px;
+line-height: 64px;
+letter-spacing: 0em;
+text-align: left;
+color: #BDBDBD;
+}
+#form_set{
+    display: flex;
+}
+#form{
+    width:35%;
+}
+.form_two{
+font-family: "TT Hoves Normal";
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0.04em;
+text-align: left;
+background :#F3F3F3;
+color:#8D8D8D;
+padding: 15px 0 15px 20px;
+width: 85%;
+border: 0;
+margin-bottom: 10px;
+}
+#img_form > img{
+    width: 100%;
+}
+#img_form{
+    width:65%;
+}
+#button_three{
+    background:#333333;
+    width: 222px;
+    height: 71px;
+    font-family: "TT Hoves Normal";
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    text-align: left;
+    padding: 25px 50px;
+    appearance: none;
+    color: #E0E0E0;
+    border: 0;
+    text-transform: uppercase;
+}
+#policy{
+    margin:20px;
+    font-family:  "TT Hoves Normal";
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+}
+#footer{
+    background: black;
+    margin-top: 10px;
+}
+#footer_menu{
+    justify-content:space-evenly;
+}
+.footer_ul{
+    list-style-type: none;
+    padding: 0;
+}
+.footer_two{
+    color: aliceblue;
+    font-family: "TT Hoves Normal";
+    padding: 15px;
+    display:flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
